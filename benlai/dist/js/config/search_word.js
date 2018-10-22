@@ -1,0 +1,1 @@
+define([],function(){var a=document.getElementsByClassName("input-box")[0],b=document.getElementsByClassName("droplist")[0];a.addEventListener("input",function(){var a=document.createElement("script");a.src=`http://suggestion.baidu.com/?wd=${this.value}&cb="callback"`,document.body.appendChild(a)})});

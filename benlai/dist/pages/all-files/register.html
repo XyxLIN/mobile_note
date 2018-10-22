@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="../../css/register.css">
+<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="../../js/lib/require.js" data-main="/js/mylib/register.js"></script>
+
+</head>
+<body>
+    <!--固定侧边导航栏-->
+    <div id="right_side_nav">
+        <ul>
+            <li id="top"></li>
+            <li id="QR_code"></li>
+            <li id="save"></li>
+            <li id="server"></li>
+          
+        </ul>
+    </div>
+    <div class="header">
+        <div class = "h-left">
+            <a style="color:black">您好，请</a>
+            <a href="" >[登录]</a>
+            <a>[注册]</a>
+            <a>[机构会员]</a>
+            <span id="bus"></span>
+            <div id="address">  
+               送至：北京          
+            </div>
+        </div>
+
+        <div class="h-right">
+            <ul>
+                <li>
+                    <s></s>
+                    <span >我的订单</span>
+                </li>
+                <li>
+                    <s></s>
+                    <span>本来礼品</span>
+                </li>
+                <li id="saoma">
+                    <s></s>
+                    <a>掌上本来</a>
+                    <img src="../../img/erweima.png">
+                </li>
+                <li>
+                    <s></s>
+                    <span>客户服务</span>
+                    <ul id="server">
+                        <li>在线客服</li>
+                        <li>联系客服</li>
+                        <li>销售热线</li>
+                        <li>帮助中心</li>
+                    </ul>
+                    <s></s>
+                </li>
+            </ul>
+           
+        </div>
+    </div>
+    <div class="Alert">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!--头部结束-->
+
+    <!--广告轮播图-->
+    <!-- <div class="scroll" id="Scroll">
+        <ul id="imges">
+            <li>
+                <img src="../img/head1.jpg">
+            </li>
+            <li>
+                <img src="../img/head2.jpg">
+            </li>
+            <li>
+                <img src="../img/head3.jpg">
+            </li>
+            <li>
+                <img src="../img/head4.jpg">
+            </li>
+            <li>
+                <img src="../img/head5.jpg">
+            </li>
+        </ul>
+
+    </div> -->
+
+
+ 
+    
+        <!-- 轮播（Carousel）项目 -->
+        <div id="myCarousel" class="carousel slide">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>   
+            
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                    <img src="../../img/head1.jpg" alt="First slide">
+                    </div>
+                    <div class="item">
+                    <img src="../../img/head2.jpg" alt="Second slide">
+                    </div>
+                    <div class="item">
+                    <img src="../../img/head3.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            
+            <!-- 控制按钮 -->
+            
+            <div style="text-align:center;">
+                <input type="button" class="btn start-slide" value="">
+                <input type="button" class="btn pause-slide" value="">
+                <input type="button" class="btn prev-slide" value="">
+                <input type="button" class="btn next-slide" value="">
+                <input type="button" class="btn slide-one" value="">
+                <input type="button" class="btn slide-two" value="">
+                <input type="button" class="btn slide-three" value="">
+            </div>
+
+
+    <div class="logo">
+            <img src="../../img/logo.gif">
+            <div class="search-word">
+                <a href="">本来月饼</a>
+                <a href="">大闸蟹</a>
+                <a href="">石板大米</a>
+                <a href="">佳沛金果</a>
+                <a href="">凯特芒</a>
+            </div>
+            <!--输入框 获取关键字-->
+            <div class="input-box">
+                 <input type="text" id="search-word">
+                 <div id="search"></div>
+                 <ul class="droplist">
+                </ul>
+            </div>
+</div>  
+            <a href="personal.html">
+                    <div class="login">
+                        我的本来
+                    </div>
+            </a>
+                                                        
+            <a href="shopping_cart.html">
+                    <div class="shopping-cart" >
+                            购物车
+                    </div>
+            </a>
+           
+            <div class="nav">
+                <ul >
+                    <li><a></a></li>
+                    <li ><a class="active">所有商品分类</a></li>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a>本来扶贫</a></li>
+                    <li><a>台湾特产</a></li>
+                    <li><a>全国配</a></li>
+                    <li><a>台创园</a></li>
+                    <li><a>韩国馆</a></li>
+                    <li><a>充值</a></li>
+                    <li><a>本来礼品</a></li>
+                    <li><a>兑换专区</a></li>
+                </ul>
+            </div>
+            <div class="log">
+                <ul>
+                    <li>
+                        <div id="per"></div>
+                       本来会员注册
+                    </li>
+                    <li>
+                        电话号码&nbsp;
+                        <input id="_tel" type="text" name="emil"  placeholder="请输入正确的号码">
+                         <div id="icon">
+
+                         </div>
+                    </li>                                                                                      
+                    <li>
+                        
+                       <span>
+                            验 证 码 &nbsp;&nbsp;
+                       </span>
+                       
+                        <input id="emil" type="text" name="emil"  placeholder="请输入验证码">
+                        <div id="icon">
+
+                        </div>
+                    </li>
+                    <li></li>                   
+                    <li>
+                        <span>
+                            密   码
+                        </span>
+                        
+                        <input id="pass" type="text" name="password" >
+                        <div id="icon">
+                            
+                         </div>
+                    </li>
+                    <li>
+                            确认密码&nbsp;
+                            <input id="_tel" type="text" name="emil"  placeholder="请输入确认密码">
+                             <div id="icon">
+    
+                             </div>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        记住我
+                        <a>忘记密码？</a>
+                    </li>
+                    <li>
+                        <a  href="login.html">
+                            <input id="Sub" type="submit" name="sub" value="立即注册">
+                        </a>
+                       
+                        <br>
+                        还不是本来生活网用户？
+                        <a>
+                                立即注册
+                        </a>
+                    </li>
+                </ul>
+                
+               <div class="other">
+                    <span>其他方式</span>
+                   <ul>
+                       <li>
+                           <div id="sina">
+                                
+                           </div>
+                           <span>新浪微博</span>
+                       </li>
+                       <li>
+                            <div id="qq">
+                                   
+                            </div>
+                             <span>qq登录</span>
+                       </li>
+                       <li>
+                            <div id="zfb">
+                                   
+                            </div>
+                            <span>支付宝</span>
+                       </li>
+                       <li>
+                            <div id="wx">
+                                    
+                            </div>
+                            <span>微信登录</span>
+                       </li>
+                       <li>
+                            <div id="lt">
+                                  
+                            </div>
+                            <span>联通</span>
+                       </li>
+                       <li>
+                            <div id="">
+                                  
+                            </div>
+                            <span>兜里登录</span>
+                       </li>
+                   </ul>
+               </div>
+
+               
+                
+            </div>
+         
+               <div class="verify">
+                    <div class="v-over"></div>
+                    <div class="v-tip">请按住滑块，拖动到最右边</div>
+                    <div class="v-move">&gt;&gt;</div>
+                </div>
+            <div class="img">
+                <img src="../../img/register.jpg">
+            </div>
+            <div class="foot">
+                    <ul>
+                        <li>
+                            <div id="send"></div>
+                            <span >18小时低温</span><br>
+                            全程冷链配送
+                        </li>
+                        <li>
+                              <div id="send"></div>
+                              <span >18小时低温</span><br>
+                              全程冷链配送
+                        </li>
+                        <li>
+                              <div id="send"></div>
+                              <span >18小时低温</span><br>
+                              全程冷链配送
+                        </li>
+                        <li>
+                              <div id="send"></div>
+                              <span >18小时低温</span><br>
+                              全程冷链配送
+                        </li>
+                        <li>
+                              <div id="send"></div>
+                              <div id="s"></div>
+                              <span >18小时低温</span><br>
+                              全程冷链配送
+                        </li>
+                    </ul>
+                </div>
+              <div class="foot_1">
+                  <ul>
+                      <li>
+                          <div id="guide"></div>
+                          <span>新手指南</span>
+                          <br>
+                          <ul id="menu">
+                             <li>购物流程</li>
+                             <li>会员政策</li>
+                             <li>联系客服</li>
+                             <li>积分政策</li>
+                             <li>加入我们</li>
+                          </ul>
+                      </li>
+                      <li>
+                          <div id="dispatching"></div>
+                          <span>配送方式</span>
+                          <br>
+                          <ul id="menu">
+                             <li>购物流程</li>
+                             <li>会员政策</li>
+                             <li>联系客服</li>
+                             <li>积分政策</li>
+                             <li>加入我们</li>
+                          </ul>
+                      </li>
+                      <li>
+                          <div id="payment">
+            
+                          </div>
+                          <span>支付方式</span>
+                          <br>
+                          <ul id="menu">
+                             <li>购物流程</li>
+                             <li>会员政策</li>
+                             <li>联系客服</li>
+                             <li>积分政策</li>
+                             <li>加入我们</li>
+                          </ul>
+                      </li>
+                      <li>
+                          <div id="after-sale">
+            
+                          </div>
+                          <span>售后服务</span>
+                          <br>
+                          <ul id="menu">
+                             <li>购物流程</li>
+                             <li>会员政策</li>
+                             <li>联系客服</li>
+                             <li>积分政策</li>
+                             <li>加入我们</li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+              <div class="foot_2">
+                 
+                  <span> <img src="../../img/tel.gif">客服服务热线:4006-917-917(周一至周日 8:00-20:00)</span>
+                  <ul style=" margin-left:-43px;">
+                      <li>加入我们</li>
+                      <li>联系我们</li>
+                      <li>关于我们</li>
+                      <li>友情链接</li>
+                      <li>品牌食材</li>
+                      <li>食品经营许可证</li>
+                      <li>营业执照</li>
+                      </ul>
+                      <ul>
+                      <li>
+                          <img src="../../img/beian.png">
+                          京公网安备 110105022022386号 京ICP证120338号 京B2-10280980
+                      </li>
+                      <li>
+                          @20-12-1018 Benlai.com.AllRights reserver 北京本来工坊科技有限公司
+                      </li>
+                      <li style="margin-left:120px;">
+                          <img src="../../img/foot_1.png">
+                      </li>
+                  </ul>
+              </div>
+            </body>
+            </html>
+            
+            <script>
+                    var searchInput = document.getElementsByClassName("input-box")[0];
+                    var droplist = document.getElementsByClassName("droplist")[0];
+                    searchInput.addEventListener("input", function(){
+                        //生成一个script标签
+                        var sc=document.createElement("script");
+                        //使用script标签访问百度的接口，将数据给callback回调函数处理 wd:关键字
+                        
+                        sc.src= `http://suggestion.baidu.com/?wd=${this.value}&cb="callback"`;
+                      
+                        document.body.appendChild(sc);
+                    });
+                    function callback(data){  
+                        console.log(data.s);
+                        droplist.innerHTML="";
+                        data.s.forEach((items,index)=>{
+                            //限制出去4条提示
+                            if(index<4){
+                                var li=document.createElement("li");
+                                li.innerHTML=items;
+                                droplist.appendChild(li);
+                                li.onclick=function () {
+                                    searchInput.value=li.innerHTML;
+                                    droplist.style.display="none";
+                                };
+                                droplist.style.display="block";
+                            }
+                        });
+                
+                    }
+                
+                 /*    var side_nav=document.getElementById("right_side_nav");
+                    side_nav.addEventListener("DOMMouseScroll",function(e){
+                        if(e.clientHeight>100){
+                            side_nav.css("display","block");
+                        }
+                    })
+                    var addr=document.getElementById("address");
+                   var alert=document.getElementById("Alert");
+                   addr.addEventListener("click",function(){
+                       alert.css("display","block");
+                   }) */
+                
+                   
+                </script>

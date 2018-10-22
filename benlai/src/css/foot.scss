@@ -1,0 +1,114 @@
+
+
+
+
+.foot{
+    width:100%;
+    height:180px;
+    background:#F8F8F6;
+    float:left;
+    margin-top:30px;
+    padding:45px;
+}
+.foot ul {
+    margin-left:-6px;
+}
+.foot ul li{
+    list-style: none;
+    width:145px;
+    height:95px;
+    margin-left:106px;
+    float:left;    
+}
+.foot ul li #send{
+    width:30px;
+    height:30px;
+    float:left;
+    background:url("../img/foot.gif") 0px 0px no-repeat;
+}
+.foot ul li span{
+    font-size:18px;
+    color:#91BE16;
+}
+.foot_1{
+    margin-top:30px;
+    padding:10px;
+    width:900px;
+    height:240px;
+    float:left;
+    margin-left:240px;
+    color:#666;
+}
+.foot_1 ul li span{
+    font-weight: bolder;
+}
+.foot_1 ul li{
+    list-style: none;
+    float:left;
+    margin-left:50px;
+    margin-top:-10px;
+    width:170px;
+    height:38px;
+}
+.foot_1 #menu{
+    margin-top:30px;
+    margin-left:-22px;
+}
+.foot_1 #menu ul li{
+    margin-top:-20px;
+}
+#guide{
+    
+    float:left;
+    width:30px;
+    height:30px;
+    background:url("../img/foot.gif") 0px -250px no-repeat;
+}
+#payment{
+    
+    float:left;
+    width:30px;
+    height:30px;
+    background:url("../img/foot.gif") 0px -312px no-repeat;
+}
+#after-sale{
+    
+    float:left;
+    width:30px;
+    height:30px;
+    background:url("../img/foot.gif") 0px -347px no-repeat;
+}
+#dispatching{
+    
+    float:left;
+    width:30px;
+    height:30px;
+    background:url("../img/foot.gif") 0px -283px no-repeat;
+}
+.foot_2{
+    width:508px;
+    height: 150px;
+    margin-left:494px;
+    color:#666;
+}
+.foot_2 span{
+    margin-left:20px;
+    font-weight: bolder;
+    font-size:18px;
+}
+.foot_2 ul li s{
+    top: 7px;
+    left: 0;
+    width: 1px;
+    height: 20px;
+    border-left: 1px solid #e6e6e6;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+}
+.foot_2 ul li{
+    list-style: none;
+    float:left;
+    margin-left:15px;
+    margin-top:10px;
+}
